@@ -19,11 +19,6 @@ addpath(genpath('helpers'));
 % Restart calls go here if needed
 % [p, settings, psi_hat, vars] = restartRoutine();
 
-tol = 0.1;
-last_ti = 0;
-% visc = 1.5463e-04;
-% fake_visc = 1.5409e-4;
-
 % If not restarting a run, start as normal.
 if ~exist('p','var') %If p exists, you are running from a restart.
     %Initialize settings.
